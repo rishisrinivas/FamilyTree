@@ -98,10 +98,10 @@ public class Util {
         }
     }
 
-    //Initializing console printer
    public static void printFamilyOf(Person p, Printer printer) {
         Util.printer = printer;
         p.getFamily();
+        Collections.sort(Util.personList, new LevelComparator());
     }
 	
 	
