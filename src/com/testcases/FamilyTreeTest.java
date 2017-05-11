@@ -15,6 +15,7 @@ public class FamilyTreeTest {
 	
 	@After
 	public void clearStringBuilder() {
+		
 		utPrinter.clear();
 	}
 	
